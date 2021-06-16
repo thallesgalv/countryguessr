@@ -1,11 +1,12 @@
 import React from "react";
-import Test from "./components/Test";
+
+import MainContainer from "./components/MainContainer";
 import { GlobalProvider } from "./contexts/GlobalContext";
 
 const App = () => {
   return (
     <GlobalProvider>
-      <Test />
+      <MainContainer />
     </GlobalProvider>
   );
 };
